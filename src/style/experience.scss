@@ -1,0 +1,34 @@
+.experience{
+    height: auto;
+    padding-bottom: 2rem;
+    background-color: #2A2219;
+    h2{
+        color: #ADA796;
+        font: 600 4.5rem Merriweather;
+        padding: 2rem 2rem 2rem 1rem ;
+        margin-bottom: 3rem;
+    }
+}
+.experience_details{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    h5{
+        font: 400 3rem Opensans;
+        color: #ADA796;
+        margin-bottom: 1rem;
+    }
+    p{
+        font: 300 1.5rem Opensans;
+        color: #c0c0c0;
+        margin-bottom: 1rem;
+    }
+    hr{
+        margin-bottom: 4rem;
+    }
+}

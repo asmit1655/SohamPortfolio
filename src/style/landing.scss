@@ -1,0 +1,30 @@
+.heading{
+    color: #ADA796;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3{
+        font:600 5rem Merriweather;
+        margin: 2rem 0;
+    }
+    p{
+        font: 400 3rem Opensans;
+    }
+}
+.profile{
+    background-color: #2A2219;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding: 1rem 0;
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            border-radius: 30rem;
+            width: 20rem;
+        }
+    }
+}

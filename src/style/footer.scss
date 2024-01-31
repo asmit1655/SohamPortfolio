@@ -1,0 +1,32 @@
+.footer{
+    background-color: #ADA796;
+    padding-bottom: 1rem;
+    // &:last-of-type{
+    //     align-items: flex-end;
+    // }
+    .details{
+        display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 2rem 1rem;
+    height: 10vh;
+    }
+    h5{
+        font: 500 2rem Merriweather;
+        color: black;
+        line-height: 1.2;
+        margin: 1rem 0;
+    }
+    a{
+        text-decoration: none;
+        color: #2A2219;
+        font: 500 1.5rem Opensans;
+    }p{
+        margin: 0.25rem;
+        color: #2A2219;
+        font: 300 1.15rem Opensans;
+        text-align: center;
+    }
+    .phone{
+        text-align: right;
+    }
+}

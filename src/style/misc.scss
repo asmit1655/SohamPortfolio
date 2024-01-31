@@ -1,0 +1,15 @@
+.cursor{
+    width: 26px;
+    height: 26px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.3s ;
+    z-index: 1200;
+    pointer-events: none;
+}
+.cursorHover{
+    transform: scale(3);
+    border: none;
+    box-shadow: 0 0 10px #2A2219;
+}
