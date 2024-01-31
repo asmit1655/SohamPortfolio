@@ -8,6 +8,7 @@ import "./style/project.scss";
 import "./style/footer.scss";
 import "./style/experience.scss";
 import "./style/misc.scss";
+import "./style/mediaQueries.scss";
 import Experience from "./Components/Experience";
 import Misc from "./Components/Misc";
 function App() {

@@ -1,0 +1,67 @@
+@media screen and (max-width: 500px) {
+    .profile{
+        flex-direction: column;
+    }
+    .project{
+        width: 100%;
+    }
+    .experience{
+        width: 100%;
+        .experience_details{
+            h5{
+                font: 400 1.5rem Opensans;;
+            }
+            p{
+                font: 300 0.75rem Opensans;
+            }
+        }
+    }
+    .footer{
+        width: 100%;
+        h5{
+            font: 500 1.25rem Merriweather;
+        }
+        a{
+            font: 500 0.85rem Opensans;
+        }
+        p{
+            font: 300 0.75rem Opensans;
+        }
+    }
+}
+// @media screen and (max-width:820px){
+//     .franchiseBtn {
+//         // position: absolute;
+//         top: unset;
+//         right: unset;
+//         left: 50%;
+//         bottom: 1rem;
+//         transform: translateX(-50%);
+//         &:hover {
+//           transform: translateX(-50%) skewX(-10deg);
+//         }
+//       }
+    
+//       footer {
+//         padding: 13rem 0;
+//         grid-template-columns: 1fr;
+    
+//         h1 {
+//           font-size: 40px;
+//           text-align: center;
+//         }
+    
+//         aside {
+//           align-items: center;
+//         }
+    
+//         div {
+//           padding: 2rem;
+//           align-items: center;
+    
+//           &:last-of-type {
+//             align-items: center;
+//           }
+//         }
+//       }
+// }
