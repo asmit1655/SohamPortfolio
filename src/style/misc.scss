@@ -13,3 +13,17 @@
     border: none;
     box-shadow: 0 0 10px #2A2219;
 }
+.scrollBtn{
+    position: absolute;
+    left: 50%;
+    bottom: 5rem;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 4rem;
+    animation: mouseScrollAnimation 0.5s linear infinite alternate;
+}
+@keyframes mouseScrollAnimation{
+    to{
+        transform: translate(-50%, 10px);
+    }
+}

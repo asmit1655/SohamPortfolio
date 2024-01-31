@@ -1,5 +1,6 @@
 import React from 'react';
 import Profile from "../Assets/SD_POTRAIT1-removebg-preview.png";
+import { BsMouse } from "react-icons/bs";
 import { motion } from "framer-motion";
 const Landing = () => {
     const headingOptions = {
@@ -28,6 +29,7 @@ const Landing = () => {
     <div className='image'>
     <motion.img data-cursorpointer={true} style={{}}{...imageOptions} src={Profile} alt='profile' />
     </div>
+    <BsMouse className='scrollBtn' data-cursorpointer={true} />
     </div>
   )
 }

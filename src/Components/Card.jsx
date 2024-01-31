@@ -3,11 +3,11 @@ import React from 'react';
 import { motion } from "framer-motion";
 const Card = ({url,title}) => {
     const imageOptions = {
-        initial:{scale:0.1, opacity:0},
+        initial:{scale:0.5, opacity:0},
         whileInView:{scale:1, opacity:1},
-        transition:{
-          delay: 0.2,
-        }
+        // transition:{
+        //   delay: 0.2,
+        // }
       }
     // const { url, title } =data;
   return (
